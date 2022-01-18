@@ -1,0 +1,4 @@
+server:
+   port: 8087
+TaskManager:
+   maxCapacity: 4
