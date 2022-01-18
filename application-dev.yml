@@ -1,0 +1,7 @@
+db:
+   connection:
+      address: http://testAddress.com
+      user: admin
+      password: password123456
+   port: 1200
+   host: 127.0.0.1
