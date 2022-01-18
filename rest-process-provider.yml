@@ -2,3 +2,4 @@ server:
    port: 8081
 TaskManager:
    maxCapacity: 8
+spring.profiles.active: dev
