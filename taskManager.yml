@@ -1,4 +1,0 @@
-server:
-   port: 8081
-TaskManager:
-   maxCapacity: 3
