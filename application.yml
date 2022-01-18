@@ -1,0 +1,33 @@
+
+TaskManager:
+   maxCapacity: 5
+
+_Process:
+   priority: LOW
+   isAlive: false
+
+server:
+   port: 8081
+
+spring:
+   application: 
+      name: rest-process-provider
+#   profiles:
+#      active: dev
+
+oneLineMap: "{connection:'http://address.com', user:'admin',password:'password123'}"
+
+db:
+   connection:
+      address: http://Address.com
+      user: admin
+      password: password
+   port: 1200
+   host: 127.0.0.1
+
+list:
+   values: one,tow,three
+
+#management.endpoints.web.exposure.include: "*"
+
+
