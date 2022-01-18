@@ -5,13 +5,7 @@ TaskManager:
 _Process:
    priority: LOW
    isAlive: false
-
-server:
-   port: 8081
-
 spring:
-   application: 
-      name: rest-process-provider
 #   profiles:
 #      active: dev
 
