@@ -1,0 +1,16 @@
+eureka_server_port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${eureka_server_port}/myeureka/eureka/
+#  instance:
+#    prefer-ip-address: true
+#  hostname: localhost
+
+servers:
+  name:
+    gateway_server: gateway
+    book_server: book-review
+  endpoints:
+    get_all_books_directly_endpoint: lb://${servers.name.book_server}/books
+    get_all_books_gateway_endpoint: lb://${servers.name.gateway_server}/books
