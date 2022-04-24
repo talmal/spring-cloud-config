@@ -1,0 +1,2 @@
+server.port: 8082
+spring.config.import: eureka_client.yaml
