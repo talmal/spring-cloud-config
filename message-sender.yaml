@@ -1,4 +1,4 @@
-server.port: 8081
+server.port: 8085
 spring.config.import: eureka_client.yaml
 slack.channelId: C03CHJ2HRC6
 slack.channelName: contact-me
