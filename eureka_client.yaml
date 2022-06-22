@@ -6,8 +6,8 @@ eureka:
     service-url:
       defaultZone: http://${hostname}:${eureka_server_port}/myeureka/eureka/
 
-#  instance:
-#    prefer-ip-address: true
+  instance:
+    prefer-ip-address: true
 
 
 servers:
