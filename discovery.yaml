@@ -3,8 +3,9 @@ server:
   servlet:
     context-path: /myeureka
 eureka:
-#  instance:
-#    hostname: localhost
+  instance:
+    hostname: discovery
   client:
     register-with-eureka: false
     fetch-registry: false
+    serviceUrl.defaultZone: httpdiscovery:8761/myeureka/eureka/
