@@ -1,14 +1,14 @@
 eureka_server_port: 8761
 #hostname: localhost
 hostname: discovery
-eureka:
-  client:
-    service-url:
-      defaultZone: http://${hostname}:${eureka_server_port}/myeureka/eureka/
-
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://${hostname}:${eureka_server_port}/myeureka/eureka/
 #  instance:
 #    prefer-ip-address: true
 
+eureka.client.serviceUrl.defaultZone: http://${hostname}:${eureka_server_port}/myeureka/eureka/
 
 servers:
   name:
