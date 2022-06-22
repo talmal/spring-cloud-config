@@ -1,6 +1,6 @@
 eureka_server_port: 8761
-#hostname: localhost
-hostname: discovery
+hostname: localhost
+#hostname: discovery
 #eureka:
 #  client:
 #    service-url:
