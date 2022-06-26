@@ -3,4 +3,4 @@ spring.config.import: eureka_client.yaml
 services.endpoints:
   post_to_message_sender: lb://message-sender/message
   post_to_message_sender_reply: lb://message-sender/message/reply
-  follow_chat_by_message_sender: lb://message-sender/message/follow
+  subscribe_to_chat: lb://message-sender/message/subscribe
