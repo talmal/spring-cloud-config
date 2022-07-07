@@ -1,5 +1,5 @@
 server.port: 8081
-spring.config.import: eureka_client.yaml
+spring.config.import: eureka_client.yaml, messagequeue_client.yaml
 slack:
   channelId: C03CHJ2HRC6
   channelName: contact-me
