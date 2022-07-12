@@ -2,8 +2,3 @@ spring.rabbitmq:
   host: rabbitmq
   username: user
   password: pass
-
-spring:
-  jackson:
-    serialization:
-      WRITE_DATES_AS_TIMESTAMPS: false

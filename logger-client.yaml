@@ -1,4 +1,5 @@
 spring:
   zipkin:
-    base-url: http://192.168.99.100:9411/
+#    base-url: http://192.168.99.100:9411/
+    base-url: http://logger:9411/
   sleuth.sampler.percentage: 1.0
