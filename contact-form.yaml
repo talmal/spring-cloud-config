@@ -1,5 +1,5 @@
 server.port: 8082
-spring.config.import: eureka_client.yaml, messagequeue_client.yaml
+spring.config.import: eureka_client.yaml, messagequeue_client.yaml,logger-client.yaml
 services.endpoints:
   post_to_message_sender: lb://message-sender/message
   post_to_message_sender_reply: lb://message-sender/message/reply
