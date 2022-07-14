@@ -2,3 +2,5 @@ spring.rabbitmq:
   host: rabbitmq
   username: user
   password: pass
+rabbitmq.queue:
+  FROM_SLACK_NEW_MESSAGE_QUEUE: from.slack.new.message
